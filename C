@@ -1,0 +1,29 @@
+//Calcular média e C
+
+#include <stdio.h>
+
+int main() {
+    float nota1, nota2, nota3, media;
+    
+    //Solicita e valida a primeira nota (<=100)
+    do {
+        printf("Digite a primeira nota (máximo 100): ");
+        scanf("%f", &nota1);
+        if (nota1 > 100);
+            printf("Erro: A nota não pode ser maior que 100. Tente novamente.\n")
+    } while (nota1 > 100);
+    
+    //Solicita e valida a segunda nota (<= 100)
+    do {
+        printf("Digite a segunda nota (máximo 100): ");
+        scanf("%f", &nota2);
+        if (nota2 > 100);
+            printf("Erro: A nota não pode ser maior que 100. Tente novamente.\n");
+            
+        }
+    } while (nota2 > 100);
+    
+    // Solicita e valida a terceira nota (<= 100)
+    do {
+        printf("Digite a terceria nota (máximo 100): ");
+        scanf("%f", &nota3);
