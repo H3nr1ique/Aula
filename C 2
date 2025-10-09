@@ -37,5 +37,7 @@ int main() {
     // Só é alcançada
     // Na data de aniversário dentro do ano atual.
     printf("*\nBom dia %s, você tem %d anos. \n", nome, idade);
-    
+    printf("(Considerando que esramos no ano de %d)\n", ano_atual);
+
+    return 0;
 }
