@@ -27,12 +27,13 @@ int main() {
 
     // --- Calculo de Idade ---
 
-    //A idade é calculada subtraindo o ano de nascimento do ar
+    //A idade é calculada subtraindo o ano de nascimento do ano atual
     idade = ano_atual - ano_nascimento;
 
     // --- Impressão de Mensagem ---
 
     // imprime a saudação com a idade calculada
-    // IMPORTANTE 
+    // IMPORTANTE: Este calculo é aproximado. A idade real
+    
 
 }
