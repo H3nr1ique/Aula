@@ -24,4 +24,9 @@ int main() {
         printf("Erro ao ler o terceiro salário: R$ ");
         return 1;
     }
-}
+
+    //2. Acrescentar 10% ao segundo salário
+    //10% de salario2 é igual a salario2 * 0.10
+    //O novo salario2 é o salário2 original + 10%
+    novoSalario2 = salario2 * 1.10;
+ }
