@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    //Declaração das variáveis para os salários e a soma
+    float salario1, salario2, salario3;
+    float somaSalarios, novoSalario2;
+
+    //1. Capturar os 3 salários
+    printf("Digite o primiero salário: R$ ");
+    //Usamos %f para ler um número de ponto flutuante (float)
+    if (scanf("%f", &salario1) != 1) {
+        printf("Erro ao ler o primeiro salário.\n");
+        return 1; //Retorna um código de erro
+    }
+
+    printf("Digite o segundo salário: R$ ");
+    if (scanf("%f", &salario2) != 1) {
+        printf("Erro ao ler o segundo salário: R$ ");
+        return 1;
+    }
+
+    printf("Digite o terceiro salario: R$ ");
+    if (scanf("%f", &salario3) != 1) {
+        printf("Erro ao ler o terceiro salário: R$ ");
+        return 1;
+    }
+}
