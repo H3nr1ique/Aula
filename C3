@@ -36,7 +36,11 @@ int main() {
 
     //4. Mostrar os resultados
     printf("\n--- Resultados ---\n");
-    printf("Salario 1 original: R$ %.2f\n, salario1");
-    printf("Salario 2 original: R$ %.2f\n, salario2");
-    printf("Salario 3 original: R$ %.2f\n, salario3");
+    printf("Salario 1 original: R$ %.2f\n", salario1);
+    printf("Salario 2 original: R$ %.2f\n", salario2);
+    printf("Salario 3 original: R$ %.2f\n", salario3);
+    printf("Segundo Salário com acrescimo de 10%%: R$ %.2f\n", novoSalario2);
+    printf("Soma total dos salários (Com acréscimo no segundo): R$ %.2f\n", somaSalarios);
+    
+    return 0; //Retorna 0 para indicar que o programa executou com sucesso
  }
