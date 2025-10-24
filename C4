@@ -17,7 +17,7 @@ void verificarResultado(float media) {
 int main() {
     float nota1, nota2, nota3, media;
 
-    //Entrada de dados
+    // Entrada de dados
     printf("Digite a primeira nota: ");
     scanf("%f", &nota1);
     // "%f" significa : lendo número de ponto flutuante e armazenando na variável nota1
@@ -29,5 +29,5 @@ int main() {
     // Chamada da função para calcular a média
     media = calcularMedia(nota1, nota2, nota3);
 
-    //Exibir média e resultado
+    // Exibir média e resultado
 }
