@@ -30,4 +30,8 @@ int main() {
     media = calcularMedia(nota1, nota2, nota3);
 
     // Exibir média e resultado
+    printf("\nMedia final: %.2f\n", media);
+    verificarResultado(media);
+
+    return 0;
 }
