@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+// Funçõa para calcular a média das notas
+float calcular_media(float nota1, float nota2, float nota3) {
+    return(nota1 + nota2 + nota3) / 3;
+}
+
+// Função para determinar se o aluno passou ou não
+const char* determinar_aprovação(float media){
+    if(media >= 6,0){
+        return "Aprovado";
+    }
+}
+    int main(){
+        float nota1, 
+    }
