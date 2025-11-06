@@ -1,16 +1,71 @@
 #include <stdio.h>
 
-// Funçõa para calcular a média das notas
-float calcular_media(float nota1, float nota2, float nota3) {
-    return(nota1 + nota2 + nota3) / 3;
-}
+int main() {
+    int codigo, quantidade;
+    float total_compra = 0.0;
+    float preco_item;
 
-// Função para determinar se o aluno passou ou não
-const char* determinar_aprovação(float media){
-    if(media >= 6,0){
-        return "Aprovado";
-    }
+    printf("\n*** Lanchonete Simulada ***\n");
+    
+    // 3. Mostrar o cardapio
+    printf("----------------------------------------\n");
+    printf("Especificacao   Codigo   Preco\n");
+    printf("----------------------------------------\n");
+    printf("Cachorro Quente  100     1.20\n");
+    printf("Bauru Simples    101     1.30\n");
+    printf("Bauru com Ovo    102     1.50\n");
+    printf("Hamburguer       103     1.20\n");
+    printf("Cheeseburguer    104     1.30\n");
+    printf("Refrigerante     105     1.00\n");
+    printf("----------------------------------------\n");
+    printf("Digite 0 para finalizar a compra.\n");
+
+    // 4. Loop de pedidos
+    do {
+        printf("\nDigite o codigo do item desejado: ");
+        scanf("%d", &codigo);
+
+        if (codigo == 0) {
+            break; // Sai do loop se o usuario digitar 0
+        }
+
+        printf("Digite a quantidade: ");
+        scanf("%d", &quantidade);
+
+        // 5. Processar escolha e calcular valor
+        switch (codigo) {
+            case 100:
+                preco_item = 1.20;
+                total_compra += preco_item * quantidade;
+                break;
+            case 101:
+                preco_item = 1.30;
+                total_compra += preco_item * quantidade;
+                break;
+            case 102:
+                preco_item = 1.50;
+                total_compra += preco_item * quantidade;
+                break;
+            case 103:
+                preco_item = 1.20;
+                total_compra += preco_item * quantidade;
+                break;
+            case 104:
+                preco_item = 1.30;
+                total_compra += preco_item * quantidade;
+                break;
+            case 105:
+                preco_item = 1.00;
+                total_compra += preco_item * quantidade;
+                break;
+            default:
+                printf("Codigo invalido. Tente novamente.\n");
+        }
+
+    } while (codigo != 0); // Continua enquanto o codigo nao for 0
+
+    // 6. Exibir o total
+    printf("\nValor total da compra: R$ %.2f\n", total_compra);
+
+    return 0;
 }
-    int main(){
-        float nota1, 
-    }
