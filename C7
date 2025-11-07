@@ -27,6 +27,27 @@
                     parcial = quantidade * 5.0;
                     printf("Vocẽ pediu %d Cachorro(s) Quente: R$ %.2f\n", quantidade, parcial);
                     total += parcial;
+                    break;
+                case2:
+                    parcial = quantidade * 8.0;
+                    printf("Vocẽ pediu %d Cachorros(s) Quentes: R$ %.2f\n", quantidade, pa
+                    total += parcial;
+                    break;
+                case3:
+                    parcial = quantidade * 4.0;
+                    printf("Vocẽ pediu %d X-Salada(s): R$ %.2f\n", quantidade, parcial);
+                    total += parcial;
+                    break;
+                case4:
+                    parcial = quantidade * 6.0;
+                    printf("Vocẽ pediu %d Suco Natural(s): R$ %.2f\n", quantidade, parcial);
+                    total += parcial;
+                    break;
+                default:
+                    printf("Opçãp Inválida! Tente Novamente.\n");
             }
-        }
+            
+        }while(opcao !=0);
+        
+        printf("\n=== TOTAL A PAGAR: R$%.2f\n")
     }
