@@ -5,7 +5,7 @@
         int item, quantidade;
         float total = 0, parcial;
         
-        print("===Lanchonete da Escola===\n");
+        print("===LANCHONETE DA ESCOLA===\n");
         
         do {
             printf("\nCardápio:\n");
