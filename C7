@@ -5,7 +5,7 @@
         int item, quantidade;
         float total = 0, parcial;
         
-        print("===LANCHONETE DA ESCOLA===\n");
+        print("===Lanchonete da Escola===\n");
         
         do {
             printf("\nCardápio:\n");
@@ -44,10 +44,11 @@
                     total += parcial;
                     break;
                 default:
-                    printf("Opçãp Inválida! Tente Novamente.\n");
+                    printf("Opção Inválida ou Inexistente, escolha outra opção.\n");
             }
             
         }while(opcao !=0);
         
-        printf("\n=== TOTAL A PAGAR: R$%.2f\n")
+        printf("\n=== TOTAL A PAGAR: R$%.2f===\n", total);
+        printf("Obrigado pela preferência\n");
     }
