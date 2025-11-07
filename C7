@@ -9,10 +9,10 @@
         
         do {
             printf("\nCardápio:\n");
-            printf("1 - Cachorro Quente - (R$5.00)\n");
-            printf("2 - X-Salada -------- (R$8.00)\n");
-            printf("3 - Refrigerante ---- (R$4.00)\n");
-            printf("4 - Suco Natural ---- (R$6.00)\n");
+            printf("1 - Cachorro Quente -- (R$5.00)\n");
+            printf("2 - X-Salada --------- (R$8.00)\n");
+            printf("3 - Refrigerante ----- (R$4.00)\n");
+            printf("4 - Suco Natural ----- (R$6.00)\n");
             printf("5 - Finalizar Pedido\n");
             
             printf("\nEscolha o item: ");
