@@ -39,7 +39,7 @@
                     total += parcial;
                     break;
                 case4:
-                    parcial = quantidade * 6.0;
+                    parcial = quantidade * 7.0;
                     printf("Vocẽ pediu %d Suco Natural(s): R$ %.2f\n", quantidade, parcial);
                     total += parcial;
                     break;
@@ -51,4 +51,6 @@
         
         printf("\n=== TOTAL A PAGAR: R$%.2f===\n", total);
         printf("Obrigado pela preferência\n");
+        
+        return 0;
     }
